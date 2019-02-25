@@ -16,10 +16,20 @@
             max-width: 100%;
             margin-bottom: -4px;
         }
+        img#responsive{
+                display: none;
+            }
+        @media screen and (max-width: 768px)
+        {
+            img#responsive{
+                display: block;
+            }
+        }
 
     </style>
 </head>
 <body>
+    <img src="./invie-responsive.png" alt="imagen responsive" id="responsive">
     <img class="header" src="./header.jpg" alt="Header de la web Invie">
     <img src="./hero.jpg" alt="nuestras guitarras son las mejores">
     <img src="./acustica.jpg" alt="Guitarras">
